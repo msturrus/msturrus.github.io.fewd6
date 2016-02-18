@@ -35,6 +35,7 @@ body {
   color: black;
   font-size: 16px;
   background: #293154;
+  font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .headstones {
@@ -43,6 +44,7 @@ body {
 	border: 1px solid black;
 	float: left;
 	margin: 0px 10px;
+	padding: 10px;
 	border-top-left-radius:50px;
 	border-top-right-radius:50px;
 background: linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -78,6 +80,24 @@ background-color: white;
 transition: all .5s ease-in-out;
   background-color: white;
   border-color: white;
+}
+
+.headstones a {
+	color: black;
+	font-size: 8px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.centerheadstone a {
+	color: black;
+	font-size: 8px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+a:hover {
+	color: red;
 }
 /******************************************
 /* LAYOUT
@@ -141,6 +161,7 @@ header {
 }
 
 nav {
+	font-size: 40px;
 }
 
 nav div {
@@ -173,17 +194,25 @@ main {
 	margin-bottom: 80px;
 }
 
-.idk {
+.submissionlink {
 	margin: 20px 0;
 	border-radius:10%;
 	
 }
 
-.idk div {
-	background-color: #edda9f;
+.name {
+	font-size: 8px;
+	text-align: center;
+	margin-top: 30px;
+	transition: all;
 }
 
-.idk div:first-of-type {
+.submissionlink div {
+	background-color: #edda9f;
+	text-align: center;
+}
+
+.submissionlink div:first-of-type {
 
 }
 
@@ -246,7 +275,7 @@ main {
 	margin-bottom: 80px;
 }
 
-.idk {
+.submissionlink {
 	margin: 20px 0;
 }
 
@@ -264,7 +293,7 @@ footer {
 /* @media screen and (max-width: 1200px) {
 */
 
-	.idk div {
+	.submissionlink div {
 	width: 750px;
 	height: 60px;
 	border: 1px solid black;
@@ -273,6 +302,7 @@ footer {
     margin-right: auto;
 	display: block;
 	border-radius: 100px;
+	padding: 20px;
 }
 
 }
