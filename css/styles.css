@@ -48,6 +48,7 @@ body {
 	border-top-left-radius:50px;
 	border-top-right-radius:50px;
 	background: -webkit-linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%);
 	background: linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%);
 	transition:all ease-in-out;
 }
@@ -140,6 +141,8 @@ a:hover {
     position: fixed;
     height: 450px;
     width: 300px;
+	background: -webkit-linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%);
     background: linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%);
     top:calc(50% - 50px/2 - 200px); /* height divided by 2*/
     left:calc(50% - 50px/2 - 125px); /* width divided by 2*/
