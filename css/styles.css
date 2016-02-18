@@ -109,6 +109,10 @@ transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
 a:hover {
 	color: red;
 }
+
+.blurall {
+	-webkit-filter: blur(9px); filter: blur(9px);
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
