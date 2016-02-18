@@ -47,7 +47,8 @@ body {
 	padding: 10px;
 	border-top-left-radius:50px;
 	border-top-right-radius:50px;
-background: linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -webkit-linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: linear-gradient(135deg, rgba(218,224,229, 1) 0%,rgba(36,45,43, 1) 150%);
 transition:all ease-in-out;
 }
 
